@@ -1,0 +1,266 @@
+import java.util.*;
+/*
+public class Main {
+    public static void main(String[] args) {
+
+    **1D Array**
+        int age = 30;
+        int physics = 97;
+        int chem = 98;
+        int eng = 99;
+        int[] marks = {97 , 98, 95};
+        int[] marks = new int[4];
+        marks[0]=97;
+        marks[1]=89;
+        marks[2]=95;
+        marks[3]=90;
+   **sort****
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+ *****2D ARRAY********
+        int[][] finalMarks = {{97, 98, 95}, {95, 95, 98}};
+        System.out.println(finalMarks[1][1l]);
+_______________________________________________________________
+
+ ********TypeCasting********8
+
+        double price = 100.00;
+        double finalPrice = price +18;
+
+        System.out.println(finalPrice);
+        int p = 100;
+        int fp = p+ (int)18.99;
+        System.out.println(fp);
+___________________________________________________________________
+
+****Constants ==>> final Keyword is used to constant a variable
+        int age = 30;
+        age = 31;
+        age = 32;
+        final float PI = 3.14F;
+________________________________________________________
+
+ ******Operators*********
+        int a =3;
+        int b =2;
+        int sum = a+b;
+        int sub = a-b;
+        int multi = a*b;
+        int div = a/b;
+        double mod = a%b;
+        System.out.println(sum);
+        System.out.println(sub);
+        System.out.println(multi);
+        System.out.println(div);
+        System.out.println(mod);
+    //unary OP
+        int num =1;
+        num++;
+        System.out.println(num);
+______________________________________________________
+
+ *******MATH********8
+        System.out.println(Math.min(5,6));
+        System.out.println(Math.max(5,6));
+
+        //random
+        System.out.println((int)(Math.random()*100));
+_________________________________________________________________
+
+ *******Take Input **********8
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input age : ");
+        int age = sc.nextInt();
+        System.out.println(age);
+        String name = sc.nextLine();
+        System.out.println(name)
+___________________________________________________
+
+************COMPARISON***********
+         a == b
+         a != b
+         a <  b
+         a >  b
+         a <= b
+         a => b
+******************** IF ELSE  STATEMENT *********************
+        boolean isSunUp = false;
+        if(isSunUp == true)
+            System.out.println("Day");
+        else
+            System.out.println("Night");
+
+    int age = 30;
+    if(age >18)
+        System.out.println("Can Vote");
+    else
+        System.out.println("Can not vote");
+______________________________________________________
+
+
+*********** LOGICAL OPERATOR *********
+************* && *****************
+int a = 30;
+int b =40;
+if(a < 50 && b < 50)
+    System.out.println("Both Less Than 50");
+___________________________________________________
+
+**************** OR || *****************
+
+ if(a < 50 || b < 50)
+    System.out.println("at least one Less Than 50");
+__________________________________________________________
+
+************************* OR || ************************
+boolean isAdult == true;
+if(isAdult == true)
+    System.out.println("adult");
+else
+    System.out.println("not adult");
+______________________________________________________________
+****************CONDITIONAL STATEMENTS *****************
+***************** STATEMENT IF ELSE ********************
+        Scanner sc = new Scanner(System.in);
+         int cash = sc.nextInt();
+        if (cash < 10) {
+            System.out.println("cant by anything");
+            System.out.println("get more cash");
+        } else if (cash > 10 && cash < 40) {
+            System.out.println("can get one item");
+        } else
+            System.out.println("can get both");
+    }
+_______________________________________________________________
+//****************CONDITIONAL STATEMENTS SWITCH *****************
+int day = 1;
+switch(day){
+    case 1:
+        System.out.println("Monday");
+    case 2:
+        System.out.println("Tuesday");
+    case 3:
+        System.out.println("Wednesday");
+    case 4:
+        System.out.println("Thursday");
+    case 5:
+        System.out.println("Friday");
+    case 6:
+        System.out.println("Saturday");
+    case 7:
+        System.out.println("Sunday");
+}
+___________________________________________________
+**************** LOOPS ***************************
+*************** FOR LOOP ***************************
+        //** 1 to 100 **
+for (int i =1; i<=100; i++){
+    System.out.println(i);
+}
+____________________________________________________
+*************** WHILE LOOP *******************
+int j =100;
+while (j >= 1){
+    System.out.println(j);
+    j = j -1;
+            }
+
+___________________________________________________
+*************** DO WHILE LOOP *******************
+EXAMPLE 1
+int j =100;
+         do{
+    System.out.println(k);
+    k = k -1;
+            }while(k >=1);
+EXAMPLE 2
+
+  Scanner sc = new Scanner (System.in);
+  int number = 0;
+  do {
+      System.out.println("input number ");
+      number = sc.nextInt();
+      System.out.println("Your number");
+      System.out.println(number);
+  }while(number >=0);
+        System.out.println("ENDED");
+
+//_____________________________________________________________________
+//********************** BREAK & CONTINUE *******************************
+     int i = 0;
+        while(true){
+            if(i==3){
+                i = i+1;
+                continue; // skip 3 and go to next
+            }
+            System.out.println(i);
+            i =i+1;
+            if(i >5){
+                break; // break on 5
+            }
+     }
+___________________________________________________________________
+**********************EXCEPTION HANDLING ********************
+******************* TRY - CATCH BLOCK **********************
+  int [] marks = {99, 98, 97};
+  try {
+      System.out.println(marks[5]);
+  }catch (Exception e){
+      //Do things after catching
+  }
+    System.out.println("Student name is AJAX");
+
+
+//_____________________________________________________________________
+//******************** METHOD AND FINCTION CALLING ***********************
+
+        public static void printJava() {
+            System.out.println("Hello");
+
+        }
+        public static void printName(String name)
+        {
+            System.out.println(name);
+        }
+    public static void printSum(int a , int b){
+            int sum = a+b;
+        System.out.println(sum);
+    }
+        public static void main (String args[]){
+            printJava();
+            printName("Ajax");
+            printName("Priya");
+            printSum(11,5);
+}
+      }
+         */
+
+
+//_____________________________________________________________________
+//***************** MINI PROJECT TO GUESS A NUMBER *********************
+public class Main{
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+       int myNumber = (int)(Math.random()*100);
+       int userNumber = 0;
+       do{
+           System.out.println("Guess my number : ");
+            userNumber = sc.nextInt();
+
+           if(userNumber == myNumber){
+               System.out.println("You got correct number!!!!!!! ");
+               break;
+           }
+           else if(userNumber > myNumber){
+               System.out.println("Your number is too large");
+           }
+           else
+               System.out.println("Your number to small ");
+       }while(userNumber >= 0);
+
+        System.out.println("My number was : ");
+        System.out.println(myNumber);
+
+    }
+}
+
