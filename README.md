@@ -1,2 +1,2 @@
 # JavaOneShot
-you can see java main concepts in this file
+You will get to know the basic but main concepts in java.
