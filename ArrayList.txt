@@ -1,0 +1,54 @@
+//____
+//*ARRAY LIST**
+import java.util.ArrayList;
+import java.util.Collections;
+public class Main{
+    public static void main(String args[]){
+//_*CREATE AN ARRAYLIST TO STORE VALUES OF PERTICULARE DATA TYPE*___
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        //ArrayList<String> list2 = new ArrayList<String>();
+        //ArrayList<Boolean> list3 = new ArrayList<Boolean>();
+
+//_*TO ADD ELEMENTS IN ARRAY LIST*_
+        list.add(0);
+        list.add(2);
+        list.add(3);
+        System.out.println(list); // OUTPUT [0 , 2 , 3]
+
+ //_*TO GET ELEMENTS FROM ARRAY LIST*____
+        // By apply indexing We will get the element
+        int element = list.get(0); // get element of  0th index
+        int element2 = list.get(1); //get element of  1st index
+        int element3 = list.get(2); //get element of  2nd index
+        System.out.println(element); // 0
+        System.out.println(element2); // 2
+        System.out.println(element3); // 3
+
+//_*TO ADD ELEMENTS IN BETWEEN OF ARRAY LIST*_
+        list.add(1,1); // provide index no. and element to add in between
+        System.out.println(list); // [0, 1, 2, 3]
+
+//_*TO SET ELEMENTS ==> TO CHANGE PREVIOUS ELEMENT IN ARRAY LIST*_
+        list.set(0,5); // Provide index and variable/element
+        System.out.println(list); //[5, 1, 2, 3]
+
+//_*TO DELETE ELEMENTS FROM ARRAY LIST*_
+        list.remove(3); //provide index to delete element
+        System.out.println(list); // [5, 1, 2]
+
+//_*TO CHECK THE SIZE OF ARRAY LIST*___
+        int size = list.size(); // store in variable
+        System.out.println(size); // Size of ArrayList is 3
+
+//_*LOOPS IN ARRAY LIST*___
+    for(int i=0; i<list.size(); i++){ // iteration of for loop from 0 to till size
+        System.out.println(i); // Print the size of index 0 1 2
+        System.out.println(list.get(i)); // Print the element of index 5 1 2
+
+//_*SORTING IN ARRAY LIST*_
+        Collections.sort(list); // sort function of collection class
+        System.out.println(list); // [1, 2, 5] sorted elements of ArrayList
+
+    }
+
+    }
